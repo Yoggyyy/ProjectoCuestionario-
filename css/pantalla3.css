@@ -1,0 +1,82 @@
+/* Encabezados */
+h3 {
+    font-weight: 400;
+    color: #222; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Botones */
+button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+button#btn-atras:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Mensajes */
+#pantalla-cuestionario {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+
+/* Formulario alineado a la derecha */
+#form-preguntas {
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabla alineada a la izquierda */
+#listado-preguntas {
+    width: 55%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#listado-preguntas table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#listado-preguntas th, #listado-preguntas td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#listado-preguntas th {
+    background-color: #0073e6;
+    color: white;
+}
+
+/* Tablas generales */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+}

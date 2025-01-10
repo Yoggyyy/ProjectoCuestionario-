@@ -1,0 +1,70 @@
+/* Encabezados */
+h2 {
+  font-weight: 400;
+  color: #222;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-content {
+  grid-template: 1fr / 1fr;
+  place-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mensajes */
+#pantalla-bienvenida-usuario {
+  height: fit-content;
+  font-size: 18px;
+  color: #555;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Formularios */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+}
+
+form input:focus,
+form button:focus {
+  border-color: #0073e6;
+  outline: none;
+}
+
+form button {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #005bb5;
+}

@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh; 
+  height: 100vh;
+}
+
+/* Contenedor principal que ocupa todo el espacio disponible */
+.main-content {
+  height: 100%;
+  display: grid;
+  grid-template: 1fr auto / 1fr;
+}
+
+/* Estilos del footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0073e6;
+  color: #ffffff;
+  padding: 20px;
+}
+.Name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Name img {
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.wrap-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rrss {
+  text-align: left;
+}
+
+.rrss h5 {
+  text-align: center;
+}
+
+.rrss ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.rrss li {
+  margin: 5px 0;
+  list-style: none;
+}
+
+.rrss img {
+  width: 40px;
+  height: auto;
+}
+
+/* Estilos para los derechos de autor */
+.footer-creds {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.copy-creds {
+  text-align: left;
+  list-style: none;
+  display: inline;
+}
+
+.legal-creds {
+  display: inline;
+}
+
+.legal-creds ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+.legal-creds li {
+  list-style: none;
+  display: inline;
+  margin-left: 15px;
+}
+
+a {
+  color: #ffffff;
+}

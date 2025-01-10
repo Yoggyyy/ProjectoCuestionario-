@@ -1,0 +1,33 @@
+/* Encabezados */
+h1 {
+    font-weight: 400;
+    color: #222; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Mensajes */
+#pantalla-bienvenida h1 {
+    margin: 0 auto;
+    font-size: 18px;
+    color: #555;
+    padding: 10px;
+    text-align: center;
+}
+
+#pantalla-login {
+    height: fit-content;
+    font-size: 18px;
+    color: #555;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    height: 100%;
+    place-content: center;
+  }
+  
+  #form-login {
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+  }
